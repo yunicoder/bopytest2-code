@@ -4,7 +4,6 @@ build-backend = "flit_core.buildapi"
 
 [project]
 name = "cards"
-version = "0.1.0"
 authors = [{name = "Brian Okken", email = "brian+pypi@pythontest.com"}]
 classifiers = [
     "License :: OSI Approved :: MIT License",
@@ -15,7 +14,7 @@ classifiers = [
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
 ]
-requires-python = ">=3.7,<4.0"
+requires-python = ">=3.7"
 dynamic = ["version", "description"]
 dependencies = [
     "tinydb==4.5.1",
